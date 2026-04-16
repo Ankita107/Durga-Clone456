@@ -1,0 +1,201 @@
+website/
+│
+├── index.html
+├── products.html
+├── product.html
+├── about.html
+├── contact.html
+├── style.css
+└── images/
+
+
+
+
+
+
+
+body {margin:0; font-family:Arial;}
+.container {width:90%; margin:auto;}
+header {background:#2c3e50; padding:15px; color:white;}
+nav a {color:white; margin:0 10px; text-decoration:none;}
+.btn {
+  display:inline-block;
+  padding:12px 20px;
+  background:#25D366;
+  color:white;
+  text-decoration:none;
+  border-radius:5px;
+}
+.section {padding:40px 0;}
+.products {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+}
+.card {border:1px solid #ddd; padding:15px; text-align:center;}
+.whatsapp-float {
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  background:#25D366;
+  padding:15px;
+  border-radius:50%;
+  color:white;
+}
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Our Products</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<div class="container">
+<h1>Durga Natural Products</h1>
+<nav>
+<a href="index.html">Home</a>
+<a href="products.html">Products</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</nav>
+</div>
+</header>
+
+<div class="section container">
+<h2>Our Products</h2>
+
+<div class="products">
+
+<div class="card">
+<img src="images/almond.jpg">
+<h3>Almond Oil</h3>
+<a class="btn" href="product.html">View</a>
+</div>
+
+<div class="card">
+<img src="images/coconut.jpg">
+<h3>Coconut Oil</h3>
+<a class="btn" href="product.html">View</a>
+</div>
+
+</div>
+
+</div>
+
+<a class="whatsapp-float" href="https://wa.me/91XXXXXXXXXX">💬</a>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Almond Oil</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<div class="container">
+<h1>Durga Natural Products</h1>
+</div>
+</header>
+
+<div class="section container">
+<h2>Almond Carrier Oil</h2>
+<p>100% Pure Cold Pressed Oil</p>
+
+<a class="btn" href="https://wa.me/91XXXXXXXXXX?text=I%20want%20bulk%20price%20for%20Almond%20Oil">
+Get Bulk Price
+</a>
+
+<p>
+(Here paste 1000-word content jo maine pehle diya hai)
+</p>
+
+</div>
+
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>About Us</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<div class="container">
+<h1>Durga Natural Products</h1>
+</div>
+</header>
+
+<div class="section container">
+<h2>About Us</h2>
+
+<p>
+Durga Natural Products is a leading supplier of carrier oils and essential oils in India. We specialize in bulk supply for cosmetic, pharmaceutical, and wellness industries. Our products are 100% pure, natural, and quality tested.
+</p>
+
+</div>
+
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Us</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<div class="container">
+<h1>Durga Natural Products</h1>
+</div>
+</header>
+
+<div class="section container">
+<h2>Contact Us</h2>
+
+<p>Phone: +91XXXXXXXXXX</p>
+<p>Email: your@email.com</p>
+
+<a class="btn" href="https://wa.me/91XXXXXXXXXX">
+Chat on WhatsApp
+</a>
+
+</div>
+
+</body>
+</html>
+
+
+
+
+
